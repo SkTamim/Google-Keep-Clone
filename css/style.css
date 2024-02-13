@@ -14,3 +14,48 @@ html {
 body {
 	font-family: "Roboto", sans-serif;
 }
+
+/* VARIABLES */
+:root {
+	--color-primary: #feefc3;
+	--color-secondary: #f1f3f4;
+	--color-icon: #323232;
+}
+
+/* NAVIGATION BAR START */
+.main_nav {
+	border-bottom: 1.5px solid #eee;
+	padding: 0 20px;
+}
+.menu_toggle_btn {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+}
+/* NAVIGATION BAR END */
+
+/* UTILI CLASSES */
+.material-icons {
+	color: var(--color-icon);
+}
+
+.btn_hover {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	user-select: none;
+}
+.btn_hover:hover,
+.btn_hover:active,
+.btn_hover:focus {
+	background-color: var(--color-secondary) !important;
+}
+.d_flex {
+	display: flex;
+}
+.content_center {
+	justify-content: center;
+}
+.align_center {
+	align-items: center;
+}
